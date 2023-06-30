@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.homePageWrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.formWrapper--logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+.logo--image{
+  width: 50px;
+  animation: mymove 2.5s infinite;
+}
+
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
+.logo-title{
+  display: flex;
+  margin-left: 8px;
+  font-weight: bold;
+
+}
+
+.logo--title1{
+  color: #69c4e7;
+}
+
+.logo--title2{
+  color: #b185eb;
+}
+
+.mainForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.main--Label{
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+.main-inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox{
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 12px;
+  background-color: #eee;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.btn{
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.joinBtn , .leaveBtn{
+  background: #b185eb;
+  width: 100px;
+  margin-left: auto;
+  font-weight: bold;
+  color: #3a3636;
+}
+.joinBtn:hover , .leaveBtn:hover{
+  background: #69c4e7;
+}
+
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn{
+  color: #b185eb;
+  text-decoration: none;
+  border-bottom: 1px solid #b185eb;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover{
+  color: #69c4e7;
+  border-color: #69c4e7;;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside{
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside--inner{
+
+flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.userName{
+  margin-left: 3px;
+}
+
+.Wrapper--logo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0px;
+  border-bottom: 1px solid #424242;
+}
+
+.leaveBtn{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 20px;
+}
