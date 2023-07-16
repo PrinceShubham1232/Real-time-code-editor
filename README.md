@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Video Clip
+
+https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/505a5018-3af0-4bb7-8ef9-f8cc4a8841a1
+
+# Output Screenshots
+
+# 1.Create Room
+![Screenshot (12)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/bee8cca4-af39-4b87-af96-748c66cc8238)
+
+# 2.User Name
+![Screenshot (13)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/e688b6eb-0a60-48ef-a7a9-b57d805aa11e)
+
+# 3.Code Editor
+![Screenshot (14)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/21adf6bb-9d75-40b6-9540-a22518637115)
+
+# 4.Connect multiple user by sharing room id
+![Screenshot (15)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/3c2c9b12-9e56-41d3-b7b6-8227a4625594)
+
+# 5.Multiple User
+![Screenshot (16)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/6c2b962e-f7cb-47a7-9da7-a62f00d09cba)
+
+# 6.Use Code editor in real time
+![Screenshot (17)](https://github.com/PrinceShubham1232/real-time-code-editor/assets/90562853/5f04d399-f6de-40e1-ad96-72aba3d3d191)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
